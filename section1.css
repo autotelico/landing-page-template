@@ -3,7 +3,7 @@ body {
     display: flex;
     flex-direction: column;
   }
-  
+
   .header-container {
     background: skyblue;
     display: flex;
@@ -19,8 +19,10 @@ body {
     border: solid;
   }
   
-  .content-wrap {
+  .content-wrap { /* Centralizes content */
+    margin: 0 auto;
     height: 400px;
+    width: 1400px;
     display: flex;
     justify-content: center;
     align-items: center;
