@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header-container {
+    background: skyblue;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    padding: 10px;
+  }
+  
+  .section {
+    flex: 1;
+    height: 800px;
+    background-color: pink;
+    border: solid;
+  }
+  
+  .content-wrap {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid olive;
+    gap: 20px;
+  }
+  
+  .text-wrap {
+    background: indigo;
+    box-sizing: border-box;
+    height: 400px;
+    width: 350px;
+    margin-left: 70px;
+    padding: 5px;
+  }
+  
+  .hero-main-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin: 0;
+  }
+  
+  .hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+  }
+  
+  button.sign-up {
+    background: #3882F6;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    box-sizing: border-box;
+    margin-top: 10px;
+    height: 30px;
+    width: 90px;
+  }
+  
+  .image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: darkgray;
+    border: solid blue;
+    box-sizing: border-box;
+    height: 300px;
+    width: 550px;
+  }
+  
+  .section.one {
+    background: #1F2937;
+    box-sizing: border-box;
+  }
