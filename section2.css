@@ -1,0 +1,45 @@
+.section.two {
+    background: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#section2-header{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.section2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    box-sizing: border-box;
+    height: 400px;
+}
+
+.image-box-wrap {
+    box-sizing: border-box;
+    height: 250px;
+    width: 150px;
+}
+
+.image-box {
+    border: 5px solid #3882F6;
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+p {
+    text-align: center;
+}
