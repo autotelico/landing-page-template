@@ -1,0 +1,45 @@
+.section.three {
+    background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3-container {
+    border: solid;
+    box-sizing: border-box;
+    height: auto;
+    width: 900px;
+    margin: 100px;
+}
+
+.quote-container {
+    border: solid blue;
+    display: inline-block;
+}
+
+.quote-container p {
+    text-align: left;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.quote-owner {
+    border: solid;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    height: 50px;
+    width: auto;
+    align-self: flex-end;
+}
+
+.quote-owner-wrap p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
