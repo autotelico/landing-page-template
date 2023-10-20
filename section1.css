@@ -12,45 +12,67 @@ body {
     background: #1F2937;
     box-sizing: border-box;
   }
-
-  .header-container {
-    background: skyblue;
-    display: flex;
-    align-items: center;
-    height: 10vh;
-    padding: 10px;
-  }
-  
-  .section {
-    flex: 1;
-    height: 800px;
-    background-color: pink;
-    border: solid;
-  }
   
   .content-wrap { /* Centralizes content */
     margin: 0 auto;
-    height: 400px;
-    width: 1400px;
+    height: 44.8vh;
+    width: 73.8vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 5px solid olive;
     gap: 20px;
+  }
+
+  .header-background {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+    width: 73.8vw;
+    padding: 1em;
+  }
+
+  #header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-left: 11.7vw;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    margin-right: 11.5vw;
+    color: white;
+    font-size: 17px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #F9FAF8;
   }
   
   .text-wrap {
-    background: indigo;
     box-sizing: border-box;
-    height: 400px;
-    width: 350px;
-    margin-left: 70px;
+    height: 30vh;
+    width: 25vw;
     padding: 5px;
+  }
+
+  .text-wrap p {
+    text-align: left;
   }
   
   .hero-main-text {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bold;
     color: #F9FAF8;
     margin: 0;
   }
@@ -61,15 +83,16 @@ body {
     margin: 0;
   }
   
-  button.sign-up {
+  .hero.sign-up {
     background: #3882F6;
-    border-radius: 4px;
+    border-radius: 8px;
     border: none;
     color: white;
     box-sizing: border-box;
     margin-top: 10px;
-    height: 30px;
-    width: 90px;
+    height: 4.1vh;
+    width: 6.5vw;
+    font-family: sans-serif;
   }
   
   .image-placeholder {
@@ -77,8 +100,7 @@ body {
     justify-content: center;
     align-items: center;
     background: darkgray;
-    border: solid blue;
     box-sizing: border-box;
-    height: 300px;
-    width: 550px;
+    height: 30vh;
+    width: 25vw;
   }

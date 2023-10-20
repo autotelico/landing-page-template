@@ -7,7 +7,7 @@
   }
 
 .section.four * {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: sans-serif;
     color: white;
 }
   
@@ -34,6 +34,7 @@
   
   .cta-main-text p {
     line-height: 5px;
+    font-size: 1.2rem;
   }
   
   .cta-text-wrap p {
@@ -42,5 +43,12 @@
   
   button.sign-up {
     border: 2px solid white;
-    border-radius: 5px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px;
+    height: 2.5rem;
+    width: 8rem;
+    background: #3882F6;
   }
