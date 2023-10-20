@@ -1,0 +1,46 @@
+.section.four {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+
+.section.four * {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+  
+  .cta-container {
+    background: #3882F6;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 200px;
+    width: 800px;
+    margin: 20px;
+    gap: 40px;
+  }
+  
+  .cta-text-wrap {
+    padding: 20px;
+  }
+  
+  .cta-main-text p.bold-header {
+    font-weight: bold;
+  }
+  
+  .cta-main-text p {
+    line-height: 5px;
+  }
+  
+  .cta-text-wrap p {
+    text-align: left;
+  }
+  
+  button.sign-up {
+    border: 2px solid white;
+    border-radius: 5px;
+  }
