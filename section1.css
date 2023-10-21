@@ -22,42 +22,6 @@ body {
     align-items: center;
     gap: 20px;
   }
-
-  .header-background {
-    display: flex;
-    justify-content: center;
-    padding: 1em;
-  }
-
-  .header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 7vh;
-    width: 73.8vw;
-    padding: 1em;
-  }
-
-  #header-logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #F9FAF8;
-    margin-left: 11.7vw;
-  }
-
-  ul {
-    list-style-type: none;
-    display: flex;
-    gap: 25px;
-    margin-right: 11.5vw;
-    color: white;
-    font-size: 17px;
-  }
-
-  header-container a {
-    text-decoration: none;
-    color: #F9FAF8;
-  }
   
   .text-wrap {
     box-sizing: border-box;
