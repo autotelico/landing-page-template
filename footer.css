@@ -1,5 +1,5 @@
 #footer {
-    background: #1F2937;
+    background: #4683a0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,7 @@
 
 .footer-content {
     color: white;
-    font-size: 18px;
+    font-size: 24px;
     margin: 10px;
     font-family: sans-serif;
 }
