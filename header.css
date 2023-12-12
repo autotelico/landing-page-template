@@ -33,3 +33,11 @@
     text-decoration: none;
     color: #F9FAF8;
   }
+
+  ::-webkit-scrollbar-thumb {
+    background: #ffd700;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: black;
+  }

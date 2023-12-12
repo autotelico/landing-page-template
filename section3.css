@@ -32,3 +32,11 @@
     height: 50px;
     width: auto;
 }
+
+::-webkit-scrollbar-thumb {
+    background: #ffd700;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: black;
+  }

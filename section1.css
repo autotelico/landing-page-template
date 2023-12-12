@@ -68,3 +68,11 @@ body {
     height: 30vh;
     width: 25vw;
   }
+
+  ::-webkit-scrollbar-thumb {
+    background: #ffd700;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: black;
+  }
